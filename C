@@ -1,0 +1,21 @@
+1
+lis=[]
+n=int(input("Enter the number of elements in the list"))
+for i in range(0,n):
+ ele=int(input())
+ lis.append(ele)
+print(lis)
+
+2
+tu={1,2,3}
+print(tu)
+
+3
+myD={
+    "A":"Abdullah",
+    "M":"Mohammed",
+    "C":"Chris"
+}
+print(myD)
+myD.pop('C')
+print(myD)
