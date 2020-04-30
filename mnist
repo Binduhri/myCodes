@@ -1,0 +1,10 @@
+import pandas as np
+import numpy as pd
+from matplotlib import pyplot as plt
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.cross_validation import train_test_split
+#matplotlib inline
+
+data = pd.read_csv('mnist.csv')
+
+data.head()
